@@ -1,0 +1,46 @@
+#BIBLIOTECAS
+
+!pip install pandas
+    #Manipulação e análise de dados estruturados (tabelas).
+    #DataFrame e Series: estruturas de dados principais.
+    #read_csv(), read_excel(): leitura de arquivos.
+    #groupby(), merge(), pivot_table(): agregações e combinações.
+    #iloc[], loc[]: acesso a linhas e colunas.
+    #isnull(), fillna(), dropna(): tratamento de dados ausentes.
+
+!pip install numpy
+    #Cálculo numérico e manipulação de arrays.
+    #array(): cria vetores e matrizes.
+    #np.mean(), np.std(), np.sum(), np.dot(): estatísticas e operações matemáticas.
+    #reshape(), flatten(), transpose(): transformação de arrays.
+    #Rápido e eficiente para cálculos matriciais e vetoriais.
+
+!pip install matplotlib
+    #Visualização básica e detalhada de dados (gráficos 2D).
+    #pyplot.plot(), pyplot.scatter(), pyplot.bar(), pyplot.hist(): gráficos básicos.
+    #xlabel(), ylabel(), title(), legend(): customização.
+    #Flexível e amplamente usado, mas com sintaxe mais manual.
+
+!pip install seaborn
+    #Visualizações estatísticas com estilo mais elegante, baseado em matplotlib.
+    #sns.histplot(), sns.boxplot(), sns.pairplot(), sns.heatmap(): gráficos prontos para análise exploratória.
+    #Integra-se perfeitamente com pandas DataFrames.
+    #Esteticamente mais agradável que matplotlib.
+
+!pip install sklearn
+    #Ferramentas para Machine Learning e modelagem preditiva.
+    #train_test_split(): divisão de dados.
+    #StandardScaler, MinMaxScaler: normalização de dados.
+    #LinearRegression(), KMeans(), RandomForestClassifier(): modelos de ML.
+    #cross_val_score(), GridSearchCV(): avaliação e otimização de modelos
+
+!pip install plotly
+    #Visualizações interativas e ricas (em HTML).
+    #plotly.express.scatter(), plotly.express.line(), plotly.express.bar(): gráficos simples com interatividade.
+    #Permite zoom, hover, filtros e dashboards.
+    #Ideal para uso com dashboards e web apps (ex: Dash).
+
+!pip install cufflinks
+    #Conecta o pandas com o Plotly para fazer gráficos interativos diretamente de DataFrames.
+    #df.iplot(): cria gráficos interativos diretamente de um DataFrame pandas.
+    #Facilita a transição de visualizações simples para interativas com menos código.
